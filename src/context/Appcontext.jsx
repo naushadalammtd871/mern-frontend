@@ -10,7 +10,7 @@ export const AppContextProvider = (props) => {
 
     const [loggedin, setloggedin] = useState(false);
     const [userdata, setuserdata] = useState(false);
-    const backendUrl = ['https://mern-backend-chi-seven.vercel.app']
+    const backendUrl = ['https://mern-backend-chi-seven.vercel.app', "http://localhost:5000"]
 
     axios.defaults.withCredentials = true;
 
